@@ -43,7 +43,11 @@ def load_tinyllama_cpu():
 
 # Option 2: Even Simpler - Using pipeline directly
 def load_tinyllama_simple():
-    """Even simpler loading with pipeline"""
+    """
+    Even simpler loading with pipeline
+    Returns:
+
+    """
     pipe = pipeline(
         "text-generation",
         model="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
